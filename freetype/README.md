@@ -1,15 +1,84 @@
-FreeType 2.9.1
-=========================
-###### Windows binaries (DLL) of FreeType (win32/win64)
+  FreeType 2.10.1
+  ===============
 
-Compiled with VS Express 2015  
-Compatible with Windows XP, Vista, 7, 8, 10
+  Homepage: https://www.freetype.org
 
-> *freetype.dll* uses the *Universal CRT* and therefore **_requires_** Visual C++ 2017 Redistributable to be present on system (*VC++ 2017 Redistributable supersedes VC++ 2015 Redistributable*).
+  FreeType is a freely available software library to render fonts.
 
-| filename | sha256 |
-| :-- | :-- |
-| win32\\**freetype.dll** | `50BE9F0AAE77ED3419088168A3EE67FDF2A1C2B33A89D46548062B636B1EE893` |
-| win32\\**freetype.lib** | `184A993AD300F8CE39D48C0500CD0F34BB44C7DDAFDB22F8C1049F5031D4F6BF` |
-| win64\\**freetype.dll** | `8B0F1E91E80D441869169A3E9D924BAAFB2203A04CB90D1A11AC7ED22C81A24E` |
-| win64\\**freetype.lib** | `81C9050FE6C1A02D176131E45A37CC994AF027F94853EEAFFA06BB087ECCBF0A` |
+  It  is  written  in  C,  designed to  be  small,  efficient,  highly
+  customizable, and  portable while capable of  producing high-quality
+  output  (glyph  images) of  most  vector  and bitmap  font  formats.
+
+  Please   read   the  docs/CHANGES   file,   it  contains   IMPORTANT
+  INFORMATION.
+
+  Read the  files `docs/INSTALL*'  for installation  instructions; see
+  the file `docs/LICENSE.TXT' for the available licenses.
+
+  The FreeType  2 API  reference is located  in `docs/reference/site';
+  use  the  file `index.html'  as  the  top entry  point.   Additional
+  documentation is available as a separate package from our sites.  Go
+  to
+
+    https://download.savannah.gnu.org/releases/freetype/
+
+  and download one of the following files.
+
+    freetype-doc-2.10.1.tar.xz
+    freetype-doc-2.10.1.tar.gz
+    ftdoc2101.zip
+
+  To view the documentation online, go to
+
+    https://www.freetype.org/freetype2/docs/
+
+
+  Mailing Lists
+  =============
+
+  The preferred way  of communication with the FreeType  team is using
+  e-mail lists.
+
+    general use and discussion:      freetype@nongnu.org
+    engine internals, porting, etc.: freetype-devel@nongnu.org
+    announcements:                   freetype-announce@nongnu.org
+    git repository tracker:          freetype-commit@nongnu.org
+
+  The lists are moderated; see
+
+    https://www.freetype.org/contact.html
+
+  how to subscribe.
+
+
+  Bugs
+  ====
+
+  Please submit bug reports at
+
+    https://savannah.nongnu.org/bugs/?group=freetype
+
+  Alternatively,    you   might    report    bugs    by   e-mail    to
+  `freetype-devel@nongnu.org'.   Don't  forget   to  send  a  detailed
+  explanation of the problem --  there is nothing worse than receiving
+  a terse message that only says `it doesn't work'.
+
+
+  Enjoy!
+
+
+    The FreeType Team
+
+----------------------------------------------------------------------
+
+Copyright (C) 2006-2019 by
+David Turner, Robert Wilhelm, and Werner Lemberg.
+
+This  file is  part of  the FreeType  project, and  may only  be used,
+modified,  and distributed  under the  terms of  the  FreeType project
+license,  LICENSE.TXT.  By  continuing to  use, modify,  or distribute
+this file you  indicate that you have read  the license and understand
+and accept it fully.
+
+
+--- end of README ---
